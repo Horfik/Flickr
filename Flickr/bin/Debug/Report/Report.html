@@ -1,0 +1,2774 @@
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 22:33:49</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>22:34:20</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>2-Title</td>
+<td>Провал</td>
+<td>22:34:23</td>
+<td><center><a target='_blank' href='screen/2-Title.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 13 but was 25. Strings differ at index 0./br  Expected: "Home | Flickr"/br  But was:  "Account settings | Flickr"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_2_Title() in C:\Users\user\Documents\Report\Program.cs:line 135</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>22:34:24</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>22:34:27</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>22:34:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>22:34:31</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>22:34:33</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>9-Authors</td>
+<td>Успех</td>
+<td>22:34:38</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>22:34:40</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>22:34:48</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>22:34:49</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>22:34:51</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 22:34:51</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 22:36:27</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>22:36:44</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>22:37:06</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>22:37:06</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>22:37:08</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>22:37:10</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>22:37:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>22:37:24</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>22:37:29</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "Mikko Leinonen"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>22:37:32</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>22:37:40</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>22:37:42</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>22:37:43</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 22:37:44</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 22:42:22</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>22:42:58</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>22:43:01</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>22:43:01</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>22:43:03</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>22:43:05</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>22:43:08</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>22:43:12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>22:43:17</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "Mikko Leinonen"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>22:43:20</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>22:43:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>22:43:30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>22:43:32</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 22:43:32</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 22:46:19</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>22:46:51</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>22:46:54</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>22:46:54</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>22:46:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>22:46:58</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>22:47:00</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>22:47:04</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>22:47:09</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "Mikko Leinonen"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>22:47:13</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>22:47:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>22:47:24</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>22:47:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 22:47:26</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 22:51:46</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>22:52:20</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>22:52:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>22:52:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>22:52:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>22:52:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>22:52:32</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>22:52:35</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>22:52:41</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>22:52:44</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>22:52:53</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>22:52:55</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>22:52:57</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 22:52:57</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 22:56:49</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>22:57:25</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>22:57:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>22:57:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>22:57:31</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>22:57:33</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>22:57:35</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>22:57:39</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>22:57:44</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>22:57:47</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>22:57:55</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>22:57:57</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>22:58:00</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 22:58:00</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 23:04:46</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>23:05:19</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>23:05:22</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>23:05:22</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>23:05:25</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>23:05:27</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>23:05:31</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>23:05:35</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>23:05:42</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>23:05:46</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>23:05:54</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>23:05:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>23:05:58</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 23:05:58</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 29.07.2018 23:13:38</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>23:14:18</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>23:14:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>23:14:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>23:14:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>23:14:25</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>23:14:27</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>23:14:30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>23:14:35</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>23:14:38</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/93088252@N04/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>23:14:46</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>23:14:48</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>23:14:49</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 12 || <span style='color: green;'>Успешно: 10</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 83% || Тест завершён: 29.07.2018 23:14:49</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 07:51:35</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>07:52:08</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>07:52:12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>07:52:12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>07:52:14</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>07:52:16</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>07:52:19</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>07:52:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>07:52:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>07:52:27</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>07:52:30</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>07:52:38</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>07:52:39</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>07:52:41</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 11</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 84% || Тест завершён: 30.07.2018 07:52:41</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 07:59:37</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:00:13</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:00:17</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:00:17</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:00:19</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:00:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:00:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:00:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:00:27</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:00:32</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: red;'>
+<td>10-Alboms</td>
+<td>Провал</td>
+<td>08:00:34</td>
+<td><center><a target='_blank' href='screen/10-Alboms.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/albums' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.GetAttribute(String attributeName)/br   at Report.Test.Test10_Alboms() in C:\Users\user\Documents\Report\Program.cs:line 338</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:00:42</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:00:44</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:00:46</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 11</span> || <span style='color: red;'>Провалено: 2</span> || Процент пройденных: 84% || Тест завершён: 30.07.2018 08:00:46</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:05:20</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:05:52</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:05:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:05:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:05:58</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:06:01</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:06:04</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:06:08</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:06:09</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:06:13</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 310</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:06:19</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:06:25</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:06:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:06:29</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:06:29</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:11:52</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:12:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:12:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:12:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:12:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:12:30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:12:33</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:12:36</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:12:38</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:12:43</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document/br  (Session info: chrome=67.0.3396.99)/br  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)/br   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)/br   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:12:48</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:12:55</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:12:57</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:12:59</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:12:59</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:16:12</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:16:43</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:16:46</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:16:47</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:16:49</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:16:50</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:16:53</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:16:55</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:16:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:17:01</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:17:06</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:17:12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:17:14</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:17:16</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:17:16</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:17:57</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:18:17</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:18:20</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:18:20</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:18:22</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:18:24</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:18:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:18:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:18:29</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:18:33</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:18:39</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:18:45</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:18:47</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:18:49</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:18:49</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:23:10</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:23:40</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:23:43</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:23:43</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:23:46</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:23:48</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:23:50</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:23:53</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:23:55</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:23:59</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:24:04</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:24:11</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:24:12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:24:15</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:24:15</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:30:59</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:31:31</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:31:34</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:31:34</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:31:37</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:31:38</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:31:41</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:31:44</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:31:45</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:31:50</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:31:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:32:02</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:32:05</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:32:07</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:32:07</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:40:55</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:41:27</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:41:30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:41:30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:41:32</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:41:34</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:41:37</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:41:39</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:41:40</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:41:54</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:41:59</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:42:06</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:42:08</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:42:09</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:42:09</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:43:38</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:44:10</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:44:13</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:44:13</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:44:15</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:44:16</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:44:19</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:44:22</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:44:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:44:36</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:44:42</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:44:48</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:44:50</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:44:52</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:44:52</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:48:05</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:48:54</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:48:57</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:48:57</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:49:00</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:49:01</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:49:03</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:49:06</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:49:07</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>9-Authors</td>
+<td>Провал</td>
+<td>08:49:20</td>
+<td><center><a target='_blank' href='screen/9-Authors.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected string length 0 but was 14. Strings differ at index 0./br  Expected: &lt;string.Empty&lt/br  But was:  "pascale forest"/br  -----------^/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_9_Authors() in C:\Users\user\Documents\Report\Program.cs:line 311</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:49:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:49:32</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:49:34</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:49:35</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 08:49:35</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 08:54:59</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>08:55:29</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>08:55:33</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>08:55:33</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>08:55:36</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>08:55:37</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>08:55:39</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>08:55:41</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>08:55:43</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>9-Authors</td>
+<td>Успех</td>
+<td>08:55:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>08:56:00</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>08:56:06</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Search</td>
+<td>Успех</td>
+<td>08:56:08</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Galleries</td>
+<td>Успех</td>
+<td>08:56:13</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 13</span> || <span style='color: red;'>Провалено: 0</span> || Процент пройденных: 100% || Тест завершён: 30.07.2018 08:56:13</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 09:24:41</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>09:25:18</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>09:25:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>09:25:21</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>09:25:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>09:25:25</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>09:25:28</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>09:25:30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: red;'>
+<td>8-PhotoDetails</td>
+<td>Провал</td>
+<td>09:25:32</td>
+<td><center><a target='_blank' href='screen/8-PhotoDetails.png'>скриншот</a><br/><br/><a href='https://www.flickr.com/photos/133929712@N06/29840068448/in/explore-2018-07-29/' target='_blank'>URL</a></center></td>
+<td>NUnit.Framework.AssertionException:   Expected: 7/br  But was:  6/br/br   at NUnit.Framework.Assert.ReportFailure(String message) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 408/br   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.cs:line 396/br   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.That.cs:line 247/br   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in C:\src\nunit\nunit\src\NUnitFramework\framework\Assert.Equality.cs:line 128/br   at Report.Test.Test_8_PhotoDetails() in C:\Users\user\Documents\Report\Program.cs:line 290</td>
+</tr>
+
+<tr style='color: green;'>
+<td>9-Authors</td>
+<td>Успех</td>
+<td>09:25:45</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>09:25:49</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>09:25:55</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Search</td>
+<td>Успех</td>
+<td>09:25:57</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Galleries</td>
+<td>Успех</td>
+<td>09:25:59</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 12</span> || <span style='color: red;'>Провалено: 1</span> || Процент пройденных: 92% || Тест завершён: 30.07.2018 09:25:59</td>
+</tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang='ru-RU'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Отчёт о тестировании</title>
+</head>
+<body>
+<div style='font-size:22px;' align='center'><strong>Тест начат: 30.07.2018 10:07:12</strong></div></br>
+<table border='1' align='center' cellpadding='5' cellspacing='0' width='100%'>
+<tr style='text-align:center;'>
+<td width='100px'><strong>Тест</strong></td>
+<td width='70px'><strong>Результат</strong></td>
+<td width='70px'><strong>Время</strong></td>
+<td width='70px'><strong>Снимок</strong></td>
+<td><strong>Сообщение</strong></td>
+</tr>
+<tr style='color: green;'>
+<td>1-Login</td>
+<td>Успех</td>
+<td>10:07:47</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>2-Title</td>
+<td>Успех</td>
+<td>10:07:50</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>3-RootItem</td>
+<td>Успех</td>
+<td>10:07:50</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>4-Linc</td>
+<td>Успех</td>
+<td>10:07:53</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>5-Name</td>
+<td>Успех</td>
+<td>10:07:54</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>6-Label</td>
+<td>Успех</td>
+<td>10:07:56</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>7-PhotoTitle</td>
+<td>Успех</td>
+<td>10:07:58</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>8-PhotoDetails</td>
+<td>Успех</td>
+<td>10:08:00</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>9-Authors</td>
+<td>Успех</td>
+<td>10:08:12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>10-Alboms</td>
+<td>Успех</td>
+<td>10:08:16</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>11-Groups</td>
+<td>Успех</td>
+<td>10:08:23</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>12-Search</td>
+<td>Успех</td>
+<td>10:08:24</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='color: green;'>
+<td>13-Galleries</td>
+<td>Успех</td>
+<td>10:08:26</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr style='text-align:center;'>
+<td colspan='5'>&nbsp;</center></td>
+</tr>
+<tr style='text-align:center;'>
+<td colspan='5'>Всего тестов запущено: 13 || <span style='color: green;'>Успешно: 13</span> || <span style='color: red;'>Провалено: 0</span> || Процент пройденных: 100% || Тест завершён: 30.07.2018 10:08:26</td>
+</tr>
+</table>
+</body>
+</html>

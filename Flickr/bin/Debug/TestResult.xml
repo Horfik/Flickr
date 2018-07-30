@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="13" result="Passed" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="31" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-07-30 07:07:12Z" end-time="2018-07-30 07:08:26Z" duration="74.786091">
+  <command-line><![CDATA["C:\Users\user\Documents\Report\bin\Debug\Report.exe" ]]></command-line>
+  <test-suite type="Assembly" id="0-1027" name="Report.exe" fullname="C:\Users\user\Documents\Report\bin\Debug\Report.exe" runstate="Runnable" testcasecount="13" result="Passed" start-time="2018-07-30 07:07:12Z" end-time="2018-07-30 07:08:26Z" duration="74.129897" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="31">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.3.9600" platform="Win32NT" cwd="C:\Users\user\Documents\Report\bin\Debug" machine-name="PC" user="user" user-domain="PC" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\user\Documents\Report\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="1424" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1028" name="Report" fullname="Report" runstate="Runnable" testcasecount="13" result="Passed" start-time="2018-07-30 07:07:12Z" end-time="2018-07-30 07:08:26Z" duration="74.106475" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="31">
+      <test-suite type="TestFixture" id="0-1000" name="Test" fullname="Report.Test" classname="Report.Test" runstate="Runnable" testcasecount="13" result="Passed" start-time="2018-07-30 07:07:12Z" end-time="2018-07-30 07:08:26Z" duration="74.102734" total="13" passed="13" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="31">
+        <test-suite type="ParameterizedMethod" id="0-1002" name="Test_1_login" fullname="Report.Test.Test_1_login" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:32Z" end-time="2018-07-30 07:07:47Z" duration="15.179005" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1001" name="Test_1_login()" fullname="Report.Test.Test_1_login()" methodname="Test_1_login" classname="Report.Test" runstate="Runnable" seed="2007171507" result="Passed" start-time="2018-07-30 07:07:32Z" end-time="2018-07-30 07:07:47Z" duration="15.172707" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1004" name="Test_2_Title" fullname="Report.Test.Test_2_Title" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:47Z" end-time="2018-07-30 07:07:50Z" duration="3.131635" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1003" name="Test_2_Title()" fullname="Report.Test.Test_2_Title()" methodname="Test_2_Title" classname="Report.Test" runstate="Runnable" seed="350346223" result="Passed" start-time="2018-07-30 07:07:47Z" end-time="2018-07-30 07:07:50Z" duration="3.131372" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1006" name="Test_3_RootItem" fullname="Report.Test.Test_3_RootItem" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:50Z" end-time="2018-07-30 07:07:50Z" duration="0.031972" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1005" name="Test_3_RootItem()" fullname="Report.Test.Test_3_RootItem()" methodname="Test_3_RootItem" classname="Report.Test" runstate="Runnable" seed="1208759369" result="Passed" start-time="2018-07-30 07:07:50Z" end-time="2018-07-30 07:07:50Z" duration="0.031874" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1008" name="Test_4_Linc" fullname="Report.Test.Test_4_Linc" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:50Z" end-time="2018-07-30 07:07:53Z" duration="2.192358" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1007" name="Test_4_Linc()" fullname="Report.Test.Test_4_Linc()" methodname="Test_4_Linc" classname="Report.Test" runstate="Runnable" seed="212892469" result="Passed" start-time="2018-07-30 07:07:50Z" end-time="2018-07-30 07:07:53Z" duration="2.192254" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1010" name="Test_5_Name" fullname="Report.Test.Test_5_Name" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:53Z" end-time="2018-07-30 07:07:54Z" duration="1.791400" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1009" name="Test_5_Name()" fullname="Report.Test.Test_5_Name()" methodname="Test_5_Name" classname="Report.Test" runstate="Runnable" seed="954507144" result="Passed" start-time="2018-07-30 07:07:53Z" end-time="2018-07-30 07:07:54Z" duration="1.791146" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1012" name="Test_6_Label" fullname="Report.Test.Test_6_Label" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:54Z" end-time="2018-07-30 07:07:56Z" duration="1.926096" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1011" name="Test_6_Label()" fullname="Report.Test.Test_6_Label()" methodname="Test_6_Label" classname="Report.Test" runstate="Runnable" seed="1123442906" result="Passed" start-time="2018-07-30 07:07:54Z" end-time="2018-07-30 07:07:56Z" duration="1.923503" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1014" name="Test_7_PhotoTitle" fullname="Report.Test.Test_7_PhotoTitle" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:56Z" end-time="2018-07-30 07:07:58Z" duration="1.937421" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1013" name="Test_7_PhotoTitle()" fullname="Report.Test.Test_7_PhotoTitle()" methodname="Test_7_PhotoTitle" classname="Report.Test" runstate="Runnable" seed="1282775949" result="Passed" start-time="2018-07-30 07:07:56Z" end-time="2018-07-30 07:07:58Z" duration="1.935850" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1016" name="Test_8_PhotoDetails" fullname="Report.Test.Test_8_PhotoDetails" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:07:58Z" end-time="2018-07-30 07:08:00Z" duration="1.685492" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1015" name="Test_8_PhotoDetails()" fullname="Report.Test.Test_8_PhotoDetails()" methodname="Test_8_PhotoDetails" classname="Report.Test" runstate="Runnable" seed="1363059040" result="Passed" start-time="2018-07-30 07:07:58Z" end-time="2018-07-30 07:08:00Z" duration="1.685352" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1018" name="Test_9_Authors" fullname="Report.Test.Test_9_Authors" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:08:00Z" end-time="2018-07-30 07:08:12Z" duration="12.083847" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1017" name="Test_9_Authors()" fullname="Report.Test.Test_9_Authors()" methodname="Test_9_Authors" classname="Report.Test" runstate="Runnable" seed="1726884977" result="Passed" start-time="2018-07-30 07:08:00Z" end-time="2018-07-30 07:08:12Z" duration="12.083247" asserts="3" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1020" name="Test10_Alboms" fullname="Report.Test.Test10_Alboms" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:08:12Z" end-time="2018-07-30 07:08:16Z" duration="4.128318" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1019" name="Test10_Alboms()" fullname="Report.Test.Test10_Alboms()" methodname="Test10_Alboms" classname="Report.Test" runstate="Runnable" seed="886718451" result="Passed" start-time="2018-07-30 07:08:12Z" end-time="2018-07-30 07:08:16Z" duration="4.128223" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1022" name="Test11_Groups" fullname="Report.Test.Test11_Groups" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:08:16Z" end-time="2018-07-30 07:08:23Z" duration="6.394422" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1021" name="Test11_Groups()" fullname="Report.Test.Test11_Groups()" methodname="Test11_Groups" classname="Report.Test" runstate="Runnable" seed="997699244" result="Passed" start-time="2018-07-30 07:08:16Z" end-time="2018-07-30 07:08:23Z" duration="6.394322" asserts="5" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1026" name="Test12_Search" fullname="Report.Test.Test12_Search" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:08:23Z" end-time="2018-07-30 07:08:24Z" duration="1.794029" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1025" name="Test12_Search()" fullname="Report.Test.Test12_Search()" methodname="Test12_Search" classname="Report.Test" runstate="Runnable" seed="116922916" result="Passed" start-time="2018-07-30 07:08:23Z" end-time="2018-07-30 07:08:24Z" duration="1.793853" asserts="2" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1024" name="Test13_Galleries" fullname="Report.Test.Test13_Galleries" classname="Report.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-07-30 07:08:24Z" end-time="2018-07-30 07:08:26Z" duration="1.748424" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1023" name="Test13_Galleries()" fullname="Report.Test.Test13_Galleries()" methodname="Test13_Galleries" classname="Report.Test" runstate="Runnable" seed="593893845" result="Passed" start-time="2018-07-30 07:08:24Z" end-time="2018-07-30 07:08:26Z" duration="1.748330" asserts="3" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
