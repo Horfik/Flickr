@@ -93,7 +93,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\Elements.cs" />
+    <Compile Include="Base.cs" />
+    <Compile Include="Check.cs" />
+    <Compile Include="FixtureUp.cs" />
+    <Compile Include="GenerateReport.cs" />
+    <Compile Include="Pages\Alboms.cs" />
+    <Compile Include="Pages\Author.cs" />
+    <Compile Include="Pages\Explore.cs" />
+    <Compile Include="Pages\Galleries.cs" />
+    <Compile Include="Pages\Groups.cs" />
+    <Compile Include="Pages\Home_page.cs" />
+    <Compile Include="Pages\Login.cs" />
+    <Compile Include="Pages\PhotoPage.cs" />
+    <Compile Include="Pages\Search.cs" />
+    <Compile Include="Pages\YouPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
