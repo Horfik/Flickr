@@ -164,10 +164,9 @@ namespace Report
                 check = new Check();
                 photo = new PhotoPage();
                 explore = new Explore();
-                explore.NavigateExplore();
-                System.Threading.Thread.Sleep(10000);
-                explore.Photo[0].Click();
-                System.Threading.Thread.Sleep(10000);
+                Browser.Navigate().GoToUrl("https://www.flickr.com/explore");
+                Browser.FindElement(By.CssSelector("a.overlay")).Click();
+                Wait.Until(ExpectedConditions.ElementToBeClickable(explore.Photo[0]));
             }
 
             [TearDown]
@@ -180,6 +179,13 @@ namespace Report
                     generate.GenerateReports(1, iTestNumCurrent, false, exception);
                 }
                 else generate.GenerateReports(1, iTestNumCurrent, true);
+            }
+
+            [TestCase]
+            public void FormatData()
+            {
+                string regex = @"\w*Taken on|Uploaded on\s*\w*July|Juny|October\[1-9]{1,2}\,\s\d{4}";
+                Assert.True(Regex.IsMatch(Browser.FindElement(By.ClassName("date-taken-label")).Text, regex));
             }
 
             [TestCase]
@@ -233,12 +239,9 @@ namespace Report
         public void Test_9_Authors()
         {
             iTestNumCurrent = "9-Authors";
-            explore.NavigateExplore();
-            System.Threading.Thread.Sleep(10000);
-            explore.Photo[0].Click();
-            System.Threading.Thread.Sleep(10000);        
+            Browser.Navigate().GoToUrl("https://www.flickr.com/explore");
+            Browser.FindElement(By.CssSelector("a.overlay")).Click();      
             string Name = photo.Author.Text;
-            System.Threading.Thread.Sleep(10000);
             photo.Author.Click();
             System.Threading.Thread.Sleep(5000);
             Assert.True(Browser.Title.Contains(author.AuthorPhoto.Text));
@@ -255,13 +258,12 @@ namespace Report
                 photo = new PhotoPage();
                 alboms = new Alboms();
                 check = new Check();
-                explore.NavigateExplore();
-                System.Threading.Thread.Sleep(10000);
-                explore.Photo[0].Click();
-                System.Threading.Thread.Sleep(5000);
+                Browser.Navigate().GoToUrl("https://www.flickr.com/explore");
+                Browser.FindElement(By.CssSelector("a.overlay")).Click();
+                Wait.Until(ExpectedConditions.ElementToBeClickable(explore.Photo[0]));
                 photo.Author.Click();
                 alboms.GoAlbom.Click();
-                System.Threading.Thread.Sleep(10000);
+                System.Threading.Thread.Sleep(5000);
             }
 
             [TearDown]
